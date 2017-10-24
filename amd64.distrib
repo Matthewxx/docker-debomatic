@@ -1,0 +1,7 @@
+# Debian
+
+[jessie]
+suite: jessie
+mirror: http://srvdistrib2/debian
+components: main contrib non-free
+
