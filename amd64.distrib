@@ -1,7 +1,6 @@
 # Debian
 
-[jessie]
-suite: jessie
-mirror: http://srvdistrib2/debian
+[stretch]
+suite: stretch
+mirror: http://ftp.fr.debian.org/debian
 components: main contrib non-free
-
