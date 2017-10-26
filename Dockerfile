@@ -7,6 +7,7 @@ WORKDIR /root/debomatic
 RUN python3 setup.py install
 ADD amd64.config /root/
 ADD amd64.distrib /root/
+ADD schroot.fstab /root/instances/schroot/fstab
 ADD dput.cf /etc/
 RUN ln -s /root/instances/schroot /etc/schroot/debomatic
 RUN mkdir /root/incoming
